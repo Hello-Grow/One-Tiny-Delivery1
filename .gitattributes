@@ -1,5 +1,5 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Large Unity terrain and ScriptableObject data are stored through Git LFS.
+*.asset filter=lfs diff=lfs merge=lfs -text
 Assets/TerrainData_d8655dfc-9627-4076-b1bc-16cd66ab5381.asset filter=lfs diff=lfs merge=lfs -text
 Assets/New[[:space:]]Terrain[[:space:]]1.asset filter=lfs diff=lfs merge=lfs -text
 Assets/TerrainData_76a64815-cd4f-43e7-bf49-edb59026d224.asset filter=lfs diff=lfs merge=lfs -text
